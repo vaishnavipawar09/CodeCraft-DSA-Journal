@@ -1,3 +1,7 @@
+'''Sorts an array by individual digits, staring with the ;least significant digit(the one at the units place)'''
+'''It is a non comparative algorithm that only works on non negative integers'''
+
+
 array = [170, 45, 75, 90, 802, 24, 2, 66]
 print("Original array:", array)
 radixarray = [[], [], [], [], [], [], [], [], [], []]  #Created a radix array wih buckets to store, total 10(0 to 9)
