@@ -19,10 +19,10 @@ while maxval // exp > 0:
             val = bucket.pop()                  #Remove fom the bucket 
             array.append(val)                   #Back to its place
             
-    exp +=10
+    exp *=10
     
 print("Sorted Array:", array)                   #Sorted Array
 
 
 #Time Complexity = (n. log n )
-#dix sort has a space complexity of O(n + b), where n is the number of elements and b is the base of the number system used.
+#radix sort has a space complexity of O(n + b), where n is the number of elements and b is the base of the number system used.
